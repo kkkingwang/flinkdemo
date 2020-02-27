@@ -47,7 +47,6 @@ public class WordCountJob {
         //打断所有算子链
         //env.disableOperatorChaining();
         //计算数据
-
         DataStream<WordCount> windowCount = text.flatMap(new FlatMapFunction<String, WordCount>() {
             public void flatMap(String value, Collector<WordCount> out) throws Exception {
                 //分割
