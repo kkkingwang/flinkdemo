@@ -10,8 +10,5 @@
         <module name="stream-jdbc-jdbc" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ceshimodule" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
